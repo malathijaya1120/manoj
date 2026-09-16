@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">A cute birthday gift</title>
+  <desc id="desc">A pink gift box with a heart and sparkles</desc>
+  <rect width="220" height="180" rx="24" fill="#4a0e2e"/>
+  <circle cx="174" cy="38" r="20" fill="#e8a3c0" opacity=".28"/>
+  <path d="M110 46c-17-28-43-7-20 12 7 6 20 14 20 14s13-8 20-14c23-19-3-40-20-12Z" fill="#ffd9e3"/>
+  <rect x="48" y="78" width="124" height="72" rx="8" fill="#c8385a"/>
+  <rect x="41" y="66" width="138" height="22" rx="7" fill="#e8a3c0"/>
+  <rect x="99" y="66" width="22" height="84" fill="#ffd9e3"/>
+  <path d="M110 67c-23-5-39-20-28-29 10-8 27 8 28 29Zm0 0c23-5 39-20 28-29-10-8-27 8-28 29Z" fill="#ffd9e3"/>
+  <circle cx="72" cy="111" r="5" fill="#ffd9e3"/><circle cx="148" cy="127" r="5" fill="#ffd9e3"/>
+  <path d="m29 43 4 9 9 4-9 4-4 9-4-9-9-4 9-4 4-9ZM193 88l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z" fill="#ffd9e3"/>
+</svg>

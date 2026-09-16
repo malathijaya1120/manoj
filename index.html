@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8f0">
+  <title>Happy Birthday, Manoj!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <div id="heartsCanvas" aria-hidden="true"></div>
+  <section class="lock-screen" id="lockScreen" aria-labelledby="lockTitle">
+    <div class="lock-card">
+      <span class="lock-spark" aria-hidden="true">✦</span>
+      <p class="eyebrow">A private birthday note</p>
+      <h1 id="lockTitle">A little surprise<br><em>for you.</em></h1>
+      <p class="lock-copy">Enter the special date to open your birthday memories.</p>
+      <form class="password-form" id="passwordForm">
+        <label for="passwordInput">Password</label>
+        <div class="password-row">
+          <input id="passwordInput" type="password" inputmode="numeric" placeholder="DD.MM.YYYY" autocomplete="off" required>
+          <button type="submit" aria-label="Open birthday page">Open <span aria-hidden="true">↗</span></button>
+        </div>
+        <p class="password-error" id="passwordError" role="alert"></p>
+      </form>
+      <p class="lock-footer">Made with love <span>♥</span></p>
+    </div>
+  </section>
+  <div class="page-glow page-glow-one"></div>
+  <div class="page-glow page-glow-two"></div>
+
+  <main class="birthday-page">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Birthday home">
+        <span class="brand-mark">✦</span>
+        <span>birthday / 2026</span>
+      </a>
+      <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false">
+        <span class="sound-icon" aria-hidden="true">♪</span>
+        <span id="soundLabel">Good vibes</span>
+      </button>
+      <audio id="birthdaySong" src="photos/Kaadhal Kadhai.mp3" preload="metadata"></audio>
+    </header>
+
+    <section class="hero" aria-labelledby="birthdayTitle">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A little celebration for you</p>
+        <h1 id="birthdayTitle">Happy birthday,<br><em>Manoj.</em></h1>
+        <p class="intro">Today is a good day to celebrate the person you are and all the bright things still ahead.</p>
+        <button class="wish-button" id="wishButton" type="button">
+          <span>Make a wish</span>
+          <span class="button-arrow" aria-hidden="true">↗</span>
+        </button>
+        <p class="wish-status" id="wishStatus" aria-live="polite">Your wish is waiting for a little magic.</p>
+      </div>
+      <div class="celebration-art" aria-label="A birthday cake with candles and balloons">
+        <div class="sun-disc"></div>
+        <div class="confetti-piece confetti-one"></div>
+        <div class="confetti-piece confetti-two"></div>
+        <div class="confetti-piece confetti-three"></div>
+        <div class="balloon balloon-coral"><span></span></div>
+        <div class="balloon balloon-teal"><span></span></div>
+        <div class="cake-scene">
+          <div class="flame flame-left"></div>
+          <div class="flame flame-middle"></div>
+          <div class="flame flame-right"></div>
+          <div class="candle candle-left"></div>
+          <div class="candle candle-middle"></div>
+          <div class="candle candle-right"></div>
+          <div class="cake-top"></div>
+          <div class="cake-body"><span></span><span></span><span></span></div>
+          <div class="cake-plate"></div>
+        </div>
+        <div class="art-note"><span>one more<br>trip around<br>the sun</span></div>
+      </div>
+    </section>
+
+    <section class="story-reel" aria-labelledby="storyTitle">
+      <div class="story-intro">
+        <p class="section-kicker">Birthday surprise</p>
+        <h2 id="storyTitle">Memories<br>of <span>us.</span></h2>
+        <p>Every frame is a small reminder of the people, places, and laughter that make life beautiful.</p>
+      </div>
+      <div class="story-rail">
+        <article class="story-panel story-panel-dark">
+          <img src="photos/IMG-20230429-WA0090.jpg" alt="Manoj with friends during a happy memory">
+          <div class="story-panel-copy"><span>01 / The beginning</span><h3>It started with<br>good company.</h3></div>
+        </article>
+        <article class="story-panel story-panel-light">
+          <img src="photos/IMG_2655.PNG" alt="A special couple memory">
+          <div class="story-panel-copy"><span>02 / Our journey</span><h3>The best part<br>is sharing it.</h3></div>
+        </article>
+        <article class="story-panel story-panel-coral">
+          <img src="D:\HBD MANOJ\photos\Snapchat-1543720520.jpg" alt="A birthday cake waiting to be celebrated">
+          <div class="story-panel-copy"><span>03 / This moment</span><h3>Here is to<br>what comes next.</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="media-memories" aria-labelledby="filmTitle">
+      <div class="media-heading">
+        <p class="section-kicker">Our little film</p>
+        <h2 id="filmTitle">Moments in<br><span>motion.</span></h2>
+        <p>Not every memory needs a caption. Some just need to be replayed.</p>
+      </div>
+      <div class="media-grid">
+        <figure class="media-card media-card-tall">
+          <video src="photos/.trashed-1790237224-Snapchat-120942224.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>01</span> Little moments</figcaption>
+        </figure>
+        <figure class="media-card">
+          <video src="photos/.trashed-1790237224-Snapchat-167506727.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>02</span> Just being you</figcaption>
+        </figure>
+        <figure class="media-card media-card-photo">
+          <img src="photos/IMG_20230424_200822_658.jpg" alt="A treasured memory of Manoj">
+          <figcaption><span>03</span> A frame to keep</figcaption>
+        </figure>
+        <figure class="media-card">
+          <video src="photos/.trashed-1790237224-Snapchat-806061458.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>04</span> Good energy</figcaption>
+        </figure>
+        <figure class="media-card media-card-photo">
+          <img src="photos/IMG_20230424_200830_667.jpg" alt="Another treasured memory of Manoj">
+          <figcaption><span>05</span> One for the album</figcaption>
+        </figure>
+        <figure class="media-card media-card-wide">
+          <video src="photos/.trashed-1790237224-Snapchat-964036385.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>06</span> The fun never ends</figcaption>
+        </figure>
+        <figure class="media-card">
+          <video src="photos/.trashed-1790237224-Snapchat-1011168016.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>07</span> Caught in the moment</figcaption>
+        </figure>
+        <figure class="media-card media-card-wide">
+          <video src="photos/.trashed-1790237224-Snapchat-1024572975.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>08</span> More memories ahead</figcaption>
+        </figure>
+        <figure class="media-card media-card-photo media-card-wide">
+          <img src="photos/family image.jpeg" alt="A family memory with Manoj">
+          <figcaption><span>09</span> Family, love, and laughter</figcaption>
+        </figure>
+        <figure class="media-card media-card-wide">
+          <video src="photos/.trashed-1790237268-Snapchat-1741833342.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>10</span> A new favorite</figcaption>
+        </figure>
+        <figure class="media-card media-card-photo">
+          <img src="photos/IMG_20260415_154711.jpg" alt="A new memory with Manoj">
+          <figcaption><span>11</span> A day to remember</figcaption>
+        </figure>
+        <figure class="media-card media-card-photo">
+          <img src="photos/Snapchat-220735659.jpg" alt="A beautiful memory with Manoj">
+          <figcaption><span>12</span> A beautiful frame</figcaption>
+        </figure>
+        <figure class="media-card media-card-wide">
+          <video src="photos/Snapchat-377556344.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>13</span> Love in the little things</figcaption>
+        </figure>
+        <figure class="media-card">
+          <video src="photos/Snapchat-506128795.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>14</span> Another happy memory</figcaption>
+        </figure>
+        <figure class="media-card media-card-wide">
+          <video src="photos/Snapchat-551671946.mp4" autoplay muted loop playsinline controls preload="metadata"></video>
+          <figcaption><span>15</span> Keep this moment close</figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+
+    <section class="details" aria-label="Birthday wishes">
+      <div class="detail-intro">
+        <p class="section-kicker">For your next chapter</p>
+        <h2>More joy.<br>More <span>you.</span></h2>
+      </div>
+      <div class="question-card" id="questionCard">
+        <div>
+          <p class="section-kicker">One more question</p>
+          <h3>I made something special for you.<br><em>Do you want to see it?</em></h3>
+          <div class="answer-buttons">
+            <button class="answer-button answer-yes" id="answerYes" type="button">Yes, show me ♥</button>
+            <button class="answer-button answer-no" id="answerNo" type="button">Not yet</button>
+          </div>
+          <p class="answer-status" id="answerStatus" aria-live="polite"></p>
+        </div>
+        <div class="cartoon-wrap"><img src="cartoon-surprise.svg" alt="A cute cartoon birthday gift"></div>
+      </div>
+    </section>
+
+    <section class="gift-reveal" id="giftReveal" aria-labelledby="giftTitle">
+      <div class="gift-header">
+        <p class="section-kicker">Your surprise</p>
+        <h2 id="giftTitle">A final little gift<br><span>just for you.</span></h2>
+      </div>
+      <div class="gift-card">
+        <img class="gift-video" src="D:\HBD MANOJ\photos\munnar.jpeg" alt="A beautiful Munnar surprise gift">
+        <div class="gift-copy">
+          <p>From every little smile to every unforgettable memory, this is your next surprise — made with love and saved just for Manoj.</p>
+          <a class="gift-link" href="#top">Back to the top</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-note">Made with a full heart <span>♥</span></footer>
+  </main>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
